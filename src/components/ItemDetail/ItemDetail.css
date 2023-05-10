@@ -1,0 +1,31 @@
+.contenedorItem {
+  text-align: center;
+  border: solid 1px #efefee;
+  margin: 3rem;
+}
+
+.img__itemDetail {
+  width: 50vw;
+}
+
+.bullets_container {
+  justify-items: center;
+  text-align: start;
+}
+
+.ItemCount_container {
+  width: 15.6vw;
+  min-height: 3.5vh;
+}
+
+.btn_fzc {
+  text-decoration: none;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  width: 10.41vw;
+}
+
+.btn_fzc:active {
+  background-image: linear-gradient(to bottom, rgb(118, 237, 235), white);
+}

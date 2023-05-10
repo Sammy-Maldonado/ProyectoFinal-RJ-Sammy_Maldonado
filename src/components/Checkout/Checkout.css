@@ -1,0 +1,23 @@
+.form-control {
+  margin: 24px auto 8px;
+}
+
+.buttons__container {
+  margin-top: 24px;
+}
+
+.logo__checkout {
+  width: 13.02vw;
+}
+
+.card-cantidad {
+  font-weight: 500;
+}
+
+.envio-style {
+  font-weight: 500;
+}
+
+.finalizar__compra__btn {
+  display: contents;
+}

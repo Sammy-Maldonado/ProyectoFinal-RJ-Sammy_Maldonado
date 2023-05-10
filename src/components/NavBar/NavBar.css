@@ -1,0 +1,17 @@
+.navbar-logo {
+  height: 5rem;
+  border-radius: 8px;
+}
+
+.ul-navbar {
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.navbarsm {
+  border-bottom: 1px solid rgb(225, 219, 219);
+}
+
+.text-deco {
+  text-decoration: none;
+}

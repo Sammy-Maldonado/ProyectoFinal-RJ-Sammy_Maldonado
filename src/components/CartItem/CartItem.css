@@ -1,0 +1,44 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item h4 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-item p:last-child {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.carrito__contenedor {
+  border-bottom: 2px solid rgb(235, 245, 248);
+}
+
+.carrito__contenedor-2 {
+  margin: 0;
+}
+
+.carrito__p__container {
+  width: 12.5%;
+  padding: 0;
+  margin: 0;
+}
+
+.carrito__p {
+  margin: 0;
+}
+
+.boton__cartItem {
+  font-size: 0.7rem;
+}
