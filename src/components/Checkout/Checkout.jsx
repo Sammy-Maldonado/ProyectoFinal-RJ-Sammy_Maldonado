@@ -120,7 +120,7 @@ const Checkout = () => {
                 <Link to='/cart'>← Volver al Carrito</Link>
                 <button type='submit' onClick={() => {
                   if (carrito.length === 0 || !nombre || !apellido || !telefono || !email || !emailConfirmacion || email !== emailConfirmacion) {
-                    { error }
+                    setError('Por favor, completa todos los campos y asegúrate de que tu dirección de correo electrónico coincida.')
                     return;
                   } else {
                     Swal.fire({
@@ -178,7 +178,6 @@ const Checkout = () => {
                       });
                       handleVaciarCarrito();
                     } else {
-                      handleCancelClick();
                     }
                   });
                 }}>Vaciar Carrito</button>
